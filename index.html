@@ -21,20 +21,47 @@
         }
         /* section design */
         #heading-parent{
-            background-color: rgb(31, 14, 8);
+            /* background-color: rgb(31, 14, 8); */
+           background-image: url(assets/road-8844555_1920.jpg);
+
             height: 600px;
             padding: 100px 0;
             /* ami chaitasi dui pash thke halka faka space nibe,full screen thakbe nah */
-            width: 1100px;
+            /* width: 1100px; */
+            /* take maximum w-1100px and na paile 100% w niba(halka responsive, small scrren dekho) */
+            max-width: 1100px;
             /* ekhon se ek pashe aisha porse,majhe anbo */
             margin: 30px auto;
         }
+        
+        /* button styling */
+        .btn{
+            background-color: tomato;
+            /* button toh small lagtase, cholen padding deya jak */
+            padding: 8px 15px;
+            color: white;
+            border: 4px solid yellow;
+            border-radius: 6px;
+        }
+        
+        .btn-parent{
+            text-align: center;
+        }
+
+
     </style>
 </head>
 <body>
 
     <div id="heading-parent">
-        <h1>I am a new programmer</h1>
+        <h1>I am a New Programmer</h1>
+      
+     <!-- lets make a button now -->
+         
+     <div class="btn-parent">
+        <button class="btn">Hire me now</button>
+     </div>
+
     </div>
 
 
